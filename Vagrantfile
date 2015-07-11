@@ -15,7 +15,6 @@ Vagrant.configure(2) do |config|
 
   config.vm.provider "virtualbox" do |vb|
 	  vb.name = "mirth_server"
-      # switch to 192 and 128 later on to test
 	  vb.memory = "512" 
   end
 
